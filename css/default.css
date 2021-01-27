@@ -92,6 +92,7 @@ header ul li a:hover {
 .text-content h1 {
   font-size: 2.8rem;
   color: white;
+  padding: 1rem;
 }
 .text-content p {
   color: #111111;
@@ -147,9 +148,13 @@ header ul li a:hover {
 .who {
   display: flex;
   flex-flow: row nowrap;
+  min-width: 600px;
 }
 .who-content-img {
   flex: 1;
+  background-image: url(../image/team.jpg);
+  background-position: center center;
+  background-size: cover;
 }
 .who-content-text {
   flex: 1;
